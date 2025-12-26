@@ -1,0 +1,56 @@
+# 消息配置文件
+language: "zh_CN"
+
+# 通用消息
+prefix: "&8[&6垃圾桶&8] &7"
+no-permission: "&c你没有权限使用此命令！"
+player-only: "&c只有玩家可以执行此命令！"
+world-disabled: "&c此世界已禁用垃圾桶功能！"
+config-reloaded: "&a配置文件已重新加载！"
+error-occurred: "&c发生错误: %error%"
+trash-refreshed: "&7公共垃圾桶已刷新！"
+
+# 命令消息
+command:
+  usage: "&7用法: &e/trashadmin <reload|setprice|sweeper>"
+  reload-success: "&a配置文件已重新加载！"
+  setprice-usage: "&7用法: &e/trashadmin setprice <物品ID> <价格>"
+  setprice-success: "&a已设置物品 &e%item% &a的价格为 &e%price% &a金币"
+  setprice-invalid-item: "&c无效的物品ID: &e%item%"
+  setprice-invalid-price: "&c无效的价格格式！"
+  sweeper-status: "&7扫地功能状态: &e%status%"
+  sweeper-enabled: "&a已启用"
+  sweeper-disabled: "&c已禁用"
+
+# GUI消息
+gui:
+  personal-opened: "&7已打开个人垃圾桶"
+  public-opened: "&7已打开公共垃圾桶，第 &e%page% &7页，共 &e%total% &7页"
+  no-items: "&7公共垃圾桶是空的"
+  page-not-exist: "&c该页面不存在！"
+  already-first-page: "&c已经是第一页了！"
+  already-last-page: "&c已经是最后一页了！"
+  buy-back-name: "&a左击购买"
+
+# 物品消息
+item:
+  added-to-public: "&7已将物品添加到公共垃圾桶"
+  removed-from-public: "&7已将物品从公共垃圾桶移除"
+  public-trash-full: "&c公共垃圾桶已满！"
+  buy-success: "&a成功购买物品，花费 &e%price% &a金币"
+  buy-no-money: "&c金币不足！需要 &e%price% &c金币"
+  buy-inventory-full: "&c背包已满，无法购买物品！"
+  sell-success: "&a成功出售物品，获得 &e%price% &a金币"
+  invalid-item: "&c无效的物品！"
+
+sweeper:
+  started: "&a扫地功能已启动，间隔: &e%interval% &a秒"
+  stopped: "&c扫地功能已停止"
+  cleaning: "&7正在清扫地面物品..."
+  items-cleaned: "&7已清扫 &e%count% &7个物品到公共垃圾桶"
+  broadcast: "&7地面上的垃圾已被自动清扫到公共垃圾桶，共清理了 &e%count% &7个物品"
+
+# 经济消息
+economy:
+  not-available: "&c经济系统不可用，物品回购功能禁用！"
+  setup-failed: "&c经济系统初始化失败！"
