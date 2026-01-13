@@ -1,0 +1,90 @@
+# 插件配置文件
+# 启用插件的世界列表
+enabled-worlds:
+  - world
+  - world_nether
+  - world_the_end
+
+# GUI设置
+gui:
+  # 个人垃圾桶GUI
+  personal:
+    title: "&8垃圾桶"
+    rows: 4
+    # 注意：移除了装饰物品设置，GUI初始为空
+  # 公共垃圾桶GUI
+  public:
+    title: "&6公共垃圾桶"
+    rows: 6
+    # 装饰物品设置
+    decoration:
+      material: "GRAY_STAINED_GLASS_PANE"
+      name: "&8╏"
+      lore: []
+    # 底部控制栏
+    controls:
+      # 上一页按钮
+      previous-page:
+        material: "ARROW"
+        name: "&a上一页"
+        lore:
+          - "&7点击切换到上一页"
+        slot: 45
+      # 下一页按钮
+      next-page:
+        material: "ARROW"
+        name: "&a下一页"
+        lore:
+          - "&7点击切换到下一页"
+        slot: 53
+      # 注意：移除了购买按钮配置
+    # 分页设置
+    items-per-page: 45
+    # 显示信息设置
+    info-display:
+      - "&7来自: &e%player%"
+      - "&7丢弃时间: &e%time%"
+      - "&7价格: &e%price% 金币"
+      - "&6左键&7点击购买"
+
+# 扫地功能设置
+sweeper:
+  # 是否启用扫地功能
+  enabled: true
+  # 扫地间隔（秒）
+  interval: 300
+  # 清扫消息
+  message: "&7地面上的垃圾已被自动清扫到公共垃圾桶，共清理了 &e%count% &7个物品"
+  # 扫地时广播消息
+  broadcast: true
+  # 不清理的物品列表
+  blacklist:
+    - "DIAMOND"
+
+# 公共垃圾桶设置
+public-trash:
+  # 自动刷新时间（秒，0表示不自动刷新）
+  auto-refresh: 3600
+
+# 价格设置
+prices:
+  # 默认回购价格
+  default-price: 5.0
+  # 自定义物品价格
+  custom-prices:
+    DIAMOND: 100.0
+
+# 经济设置
+economy:
+  # 是否使用经济系统
+  use-vault: true
+  # 经济系统名称（仅用于显示）
+  provider: "Vault"
+  # 货币符号
+  currency-symbol: "金币"
+
+# 语言设置
+language: "zh_CN"
+
+# 调试模式
+debug: false

@@ -1,0 +1,16 @@
+com\yei_bai\trashplugin\MessageManager.class
+com\yei_bai\trashplugin\SweeperManager$2.class
+com\yei_bai\trashplugin\PublicTrashGUI.class
+com\yei_bai\trashplugin\TrashItem.class
+com\yei_bai\trashplugin\PlayerEventListener.class
+com\yei_bai\trashplugin\ConfigManager.class
+com\yei_bai\trashplugin\AutoRefreshManager.class
+com\yei_bai\trashplugin\Commands.class
+com\yei_bai\trashplugin\TrashPlugin.class
+com\yei_bai\trashplugin\SweeperManager$1.class
+com\yei_bai\trashplugin\DataManager.class
+com\yei_bai\trashplugin\GUIListener.class
+com\yei_bai\trashplugin\SweeperManager.class
+com\yei_bai\trashplugin\PersonalTrashGUI.class
+com\yei_bai\trashplugin\AutoRefreshManager$1.class
+com\yei_bai\trashplugin\EconomyManager.class
